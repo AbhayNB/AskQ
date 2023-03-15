@@ -30,4 +30,4 @@ def nextpage():
 Abhi kuch ni h isme <br>
 <a href="/">back</a>"""
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=False)
