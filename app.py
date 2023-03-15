@@ -8,7 +8,7 @@ app=Flask(__name__)
 @app.route('/',methods=['GET','POST'])
 def home():
     if request.method=='POST':
-        openai.api_key = "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"
+        openai.api_key = ""
         start_sequence = "\nAdua:"
         restart_sequence = "\nYou: "
         query= request.form['book']
